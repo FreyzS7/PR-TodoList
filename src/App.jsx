@@ -6,6 +6,7 @@ import PostPage from './pages/post'
 import Home from './home'
 import DetailPage from './pages/detail'
 import MainPage from './pages/main'
+import SellingPage from './pages/selling'
 
 import PokemonPage from './pages/pokemon'
 import PokemonDetail from './pages/pokemon/PokemonDetailPage'
@@ -55,6 +56,10 @@ const App = () => {
     {
       path: "/compare",
       element: <ComparePokemon/>
+    },
+    {
+      path: "/selling",
+      element: <SellingPage/>
     }
   ]);
 
